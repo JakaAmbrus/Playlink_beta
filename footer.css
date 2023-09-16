@@ -1,0 +1,29 @@
+#footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    background: #242526;;
+    border-top: 1px solid grey;;
+}
+#footer-content-container{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+#footer-text{
+    font-size: 2em;
+    font-family: 'NexaFont';
+}
+.icons{
+    font-size: 4em;
+    color: white;
+}
+#footer-date{
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    font-size: 2em;
+}

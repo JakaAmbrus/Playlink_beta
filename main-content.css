@@ -1,0 +1,43 @@
+
+#main-page-content-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#main-page-content{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 80vh;
+    width: 100%;
+    max-width: 1920px;
+}
+#main-page-left{
+    margin-left: 1em;
+    height: 100%;
+    width: 20%;
+    border: 1px solid grey;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    padding: 2em;
+    border-radius: 2px;
+}
+#main-page-middle{
+    height: 100%;
+    width: 54%;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+#main-page-right{
+    margin-right: 1em;
+    height: 100%;
+    width: 20%;
+    border: 1px solid grey;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    padding: 2em;
+    border-radius: 2px;
+}
