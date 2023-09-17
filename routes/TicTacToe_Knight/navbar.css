@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'NexaFont';
+  src: url('../../fonts/NexaBold.otf') format('truetype');
+}
  #navigation-bar-container{
   position: absolute;
   top: 0;

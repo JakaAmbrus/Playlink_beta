@@ -252,7 +252,7 @@ transition: margin 1s ease;
 
 @media (max-width: 1100px) {
   #full-container {
-    transform: scale(0.98, 0.7);
+    transform: scale(0.98, 0.6);
     
 }
 .icons i{
