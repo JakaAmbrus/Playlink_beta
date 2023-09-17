@@ -1,4 +1,24 @@
-
+@font-face {
+    font-family: 'NexaFont';
+    src: url('./fonts/NexaBold.otf') format('truetype');
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #18191A;
+    color: white;
+    font-size: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
 #main-page-content-container{
     display: flex;
     justify-content: center;
@@ -14,32 +34,39 @@
     max-width: 1920px;
 }
 #main-page-left{
+    
     background: #242526;
     margin-left: 1em;
     height: 100%;
     width: 20%;
     display: flex;
+    flex-direction: column;
     font-size: 2.5em;
-    justify-content: center;
-    padding: 2em;
+    padding: 1em;
     border-radius: 2px;
+    font-family: 'NexaFont';
+}
+#left-widget-header{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
 }
 #main-page-middle{
-    background: #242526;
+    background-image: url('img/endless-constellation.svg');
     margin-right: 1em;
     height: 100%;
     width: 75%;
     border-radius: 2px;
     display: grid;
-    padding: 1em;
-    gap: 1em;
+    padding: 2em;
+    gap: 2em;
     grid-template: 1fr 1fr / 1fr 1fr;
 }
 
 .games{
     height: 100%;
-    border:0.2em solid white;
-    border-radius: 2px;
+    border:0.2em solid #858687;
+    border-radius: 5px;
+    overflow: hidden;
 }
 #games-text-container{
     display: flex;

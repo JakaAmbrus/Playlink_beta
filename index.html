@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="main-content.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <title>Playlink Beta</title>
-    <script src="script.js" defer></script>
+    <script src="navbar.js" defer></script>
 </head>
 <body>
     <div id="navigation-bar-container">
         <nav id='navigation-bar'>
-          <div id="navbar-left">
+          <a href="#" id="navbar-left">
             <div id="logo-container">
               <img src="img/logo-white.png" id='logo' alt="PlayLink logo" />
             </div>
@@ -21,7 +21,7 @@
               <div id='logo-play-text-container'><div id="logo-text-play" >Play</div></div>
               <div id='logo-link-text-container'><div id='logo-text-link'>Link</div></div>
             </div>
-          </div>
+          </a>
           <div id="navbar-right">
           </div>
         </nav>
@@ -30,6 +30,9 @@
         <section id="main-page-content-container">
         <div id="main-page-content">
             <div id="main-page-left">
+              <div id="left-widget-header">
+                PlayLink Gaming
+              </div>
               <div id="left-widget-text">
                 This is an extensive and ambitious project that I plan to work on as I get more proficient with the tech stack. I would however like to showcase the gaming section for a small preview of what is to come. I encourage you to check out the figma design of the future website, found in my portfolio.
               </div>
@@ -39,15 +42,15 @@
                 <div id="games-text">PlayLink Gaming.</div>
 
               </div>
-              <div id="game-1" class="games">
+              <a href="routes/TicTacToe_Knight/index.html" id="game-1" class="games">
                 <img src="img/hxh_img.jpg" alt="Hollow x Hollow" class="preview-img">
-              </div>
-              <div id="game-2" class="games">
+              </a>
+              <a href="routes/PSP_Sketcher/index.html" id="game-2" class="games">
                 <img src="img/psp_img.PNG" alt="PSP preview" class="preview-img">
-              </div>
-              <div id="game-3" class="games">
+              </a>
+              <a href="routes/Rock_Paper_Scissors/index.html" id="game-3" class="games">
                 <img src="img/rps_img.png" alt="RPS preview" class="preview-img">
-              </div>
+              </a>
             </div>
            
         </div>
