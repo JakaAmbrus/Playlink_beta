@@ -252,7 +252,7 @@ h1{
 
   @media (max-width: 1100px) {
   #entire-game {
-    transform: scale(.98, 0.6);
+    transform: scale(.98, 0.6) ;
       
   }
   span{
