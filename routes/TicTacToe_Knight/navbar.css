@@ -138,3 +138,8 @@
       transform: translateX(0.04em);
     }
   }
+  @media (orientation: portrait){
+    #navigation-bar-container{
+      font-size: 3vh;
+      }
+  }

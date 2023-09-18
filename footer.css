@@ -27,3 +27,16 @@
     bottom: 1em;
     font-size: 1.5em;
 }
+@media (orientation: portrait){
+    #footer{
+      font-size: 1vh;
+      justify-content: flex-start;
+      }
+
+      #footer-text{
+        display: none;
+    }
+    .icons{
+       margin-left: 2vw;
+    }
+  }

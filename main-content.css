@@ -94,7 +94,7 @@
 @media (orientation: portrait){
     #main-page-content{
         height: auto;
-        padding-bottom: 8em;
+        padding-bottom: 8vh;
     }
     #main-page-left{
         display: none;
@@ -102,10 +102,20 @@
     #main-page-middle{
       width: 98%;
       margin: 0 1vw;
-      grid-template: 1fr 1fr 1fr 1fr / 1fr;
+      grid-template: 0.5fr 1fr 1fr 1fr / 1fr;
     }
     .games{
         aspect-ratio: 16 / 9;
         border:1px solid grey;
+    }
+    #games-text-container{
+        aspect-ratio: 16 / 4;
+        text-align: center;
+        align-items: center;
+        font-size: 9vw;
+        height: auto;
+    }
+    #games-text{
+        
     }
 }

@@ -2,14 +2,16 @@
     position: absolute;
     font-size: 12px;
     width: 100%;
-    bottom: 0%;
+    bottom: 0;
     display: flex;
     justify-content: center;
-    padding: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     background: #242526;;
     border-top: 1px solid grey;;
     color: white;
 }
+
 #footer-content-container{
     display: flex;
     align-items: center;
@@ -29,3 +31,8 @@
     bottom: 1em;
     font-size: 1.5em;
 }
+@media (orientation: portrait){
+    #footer{
+      font-size: 1.2vh;
+      }
+  }
