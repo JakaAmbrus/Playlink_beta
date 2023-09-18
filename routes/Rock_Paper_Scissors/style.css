@@ -252,8 +252,8 @@ transition: margin 1s ease;
 @media (max-width: 1100px) {
   #full-container {
     transform: scale(1) ;
-    width: 98vw;
-    height: 98vw;
+    width: 100vw;
+    height: 100vw;
     top: 25vh;
     
 }
@@ -281,8 +281,8 @@ transition: margin 1s ease;
 @media (min-height: 2500px) {
   #full-container {
     transform: scale(1) ;
-    width: 98vw;
-    height: 98vw;
+    width: 100vw;
+    height: 100vw;
     top: 25vh;
     
 }

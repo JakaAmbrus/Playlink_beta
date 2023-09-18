@@ -231,8 +231,10 @@ const doAgain = document.querySelector('#now-do-it-again');
 const tryAgain = document.querySelector('#better-luck-next-time');
 
 function winnerF(){
-winner.style.display = 'flex';
 gameContainer.style.display = 'none';
+setTimeout(() => {
+    winner.style.display = 'flex';
+}, 300);
 setTimeout(() => {
     winAudio.play();
     youWin.style.opacity = '1';
@@ -241,16 +243,20 @@ setTimeout(() => {
     doAgain.style.opacity = '1';
 }, 2000);
 setTimeout(() => {
-    winner.style.display = 'none';
-    enablePointers()
-    gameContainer.style.display = 'grid';
     youWin.style.opacity = '0';
     doAgain.style.opacity = '0';
+    setTimeout(() => {
+        winner.style.display = 'none';
+    gameContainer.style.display = 'grid';
+    enablePointers()
+    }, 200);
 }, 5000);
 }
 function loserF(){
-    loser.style.display = 'flex';
     gameContainer.style.display = 'none';
+    setTimeout(() => {
+        loser.style.display = 'flex';
+    }, 300);
     setTimeout(() => {
         loseAudio.play();
         youLose.style.opacity = '1';
@@ -259,12 +265,14 @@ function loserF(){
         tryAgain.style.opacity = '1';
     }, 3000);
     setTimeout(() => {
-    loser.style.display = 'none';
-    enablePointers()
-    gameContainer.style.display = 'grid';
     youLose.style.opacity = '0';
     tryAgain.style.opacity = '0';
-    }, 6000);
+    setTimeout(() => {
+        loser.style.display = 'none';
+        gameContainer.style.display = 'grid';
+        enablePointers()
+    }, 200);
+    }, 5000);
 }
 function disablePointers(){
     gameContainer.style.pointerEvents = 'none';
